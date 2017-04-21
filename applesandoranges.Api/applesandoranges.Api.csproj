@@ -110,6 +110,10 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Contracts\IAppleRepo.cs" />
     <Compile Include="Contracts\IOrangeRepo.cs" />
+    <Compile Include="Controllers\AppleController.cs" />
+    <Compile Include="Controllers\OrangeController.cs" />
+    <Compile Include="DAL\AppleRepo.cs" />
+    <Compile Include="DAL\OrangeRepo.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -129,8 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="DAL\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
