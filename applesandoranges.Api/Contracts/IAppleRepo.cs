@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace applesandoranges.Api.Contracts
 {
-    interface IAppleRepo
+    public interface IAppleRepo
     {
         //get one by id
         Apple GetAppleById(int id);
